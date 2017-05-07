@@ -1,0 +1,19 @@
+{
+  "name": "myblog-react",
+  "version": "1.0.0",
+  "description": "a react blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxiang958/myBlog.git"
+  },
+  "author": "zhangxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxiang958/myBlog/issues"
+  },
+  "homepage": "https://github.com/zhangxiang958/myBlog#readme"
+}

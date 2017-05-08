@@ -29,7 +29,8 @@ if (isDeveloping) {
   app.use(middleware);
   app.use(webpackHotMiddleware(compiler));
   app.get('*', function response(req, res) {
-    res.write(middleware.fileSystem.readFileSync(path.join(__dirname, '/src/index.html')));
+
+    res.write(middleware.fileSystem.readFileSync(path.join(config.output.path + '/index.html')));
     res.end();
   });
 } else {

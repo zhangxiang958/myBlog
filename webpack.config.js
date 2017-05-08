@@ -37,9 +37,6 @@ module.exports = {
         "presets": ["react", "es2015", "stage-0", "react-hmre"]
       }
     }, {
-      test: /\.json?$/,
-      loader: 'json'
-    }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?modules&localIdentName=[name]---[local]---[hash:base64:5]'
     }]

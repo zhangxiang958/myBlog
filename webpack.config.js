@@ -39,6 +39,13 @@ module.exports = {
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?modules&localIdentName=[name]---[local]---[hash:base64:5]'
+    },{
+      test: /\.scss$/,
+      loader: 'style-loader!css-loader?sourceMap!sass-loader?sourceMap'
+    },{
+      // 专供iconfont方案使用的，后面会带一串时间戳，需要特别匹配到
+      test: /\.(woff|woff2|svg|eot|ttf)\??.*$/,
+      loader: 'file-loader?name=./static/fonts/[name].[ext]',
     }]
   }
 };

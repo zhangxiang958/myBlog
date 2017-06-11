@@ -5,6 +5,8 @@ const Footer = () => {
     <footer id="footer" className="footer">
       <div className="social-links">
         <a href="mailto:your@email.com" className="iconfont icon-email" title="email"></a>
+        <a href="/hexo-theme-even/atom.xml" className="iconfont icon-github" title="github"></a>        
+        <a href="/hexo-theme-even/atom.xml" className="iconfont icon-zhihu" title="zhihu"></a>        
         <a href="/hexo-theme-even/atom.xml" className="iconfont icon-rss" title="rss"></a>
       </div>
 

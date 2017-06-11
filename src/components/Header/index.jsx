@@ -31,13 +31,16 @@ const Header = () => {
                 </li>
                 <li className="menu-item">
                   <a className="menu-item-link" href="/hexo-theme-even/archives/">
+                      Tags
+                  </a>
+                </li>
+                <li className="menu-item">
+                  <a className="menu-item-link" href="/hexo-theme-even/archives/">
                       About
                   </a>
                 </li>
             </ul>
-          
         </nav>
-
     </header>
   );
 }

@@ -1,6 +1,7 @@
-import React  from 'react';
-import Header from '../Header/index.jsx';
-import Footer from '../Footer/index.jsx';
+import React    from 'react';
+import Header   from '../Header/index.jsx';
+import Footer   from '../Footer/index.jsx';
+import BackTop  from '../BackTop/index.jsx'
 
 let mainStyle = {
   margin: '0 auto',
@@ -15,6 +16,7 @@ const Layout = ({children}) => {
           {children}
         </div>
         <Footer />
+        <BackTop />
     </div>
   );
 }

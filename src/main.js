@@ -1,6 +1,6 @@
 import React    from 'react';
 import ReactDOM from 'react-dom';
-import Style    from './static/css/style.scss';
+import Style    from './static/sass/style.scss';
 import Layout   from './components/Layout/index.jsx';
 
 class App extends React.Component {

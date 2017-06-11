@@ -1,6 +1,7 @@
-import React from 'react';
+import React    from 'react';
 import ReactDOM from 'react-dom';
-import Style from './static/css/main.css';
+import Style    from './static/css/style.scss';
+import Layout   from './components/Layout/index.jsx';
 
 class App extends React.Component {
     constructor(...props){
@@ -8,9 +9,11 @@ class App extends React.Component {
     };
     render() {
         return (
-            <div>
-                'hello world'
-            </div>    
+            <Layout>
+                <div>
+                    this is content
+                </div>
+            </Layout>  
         );
     }
 }

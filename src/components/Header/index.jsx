@@ -1,11 +1,12 @@
-import React from 'react';
+import React    from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header id="header" className="header">
         <div id="mobile-navbar" className="mobile-navbar">
           <div className="mobile-header-logo">
-            <a href="/hexo-theme-even/." className="logo">Shwan</a>
+            <Link to="/" className="logo">Shwan</Link>
           </div>
           <div className="mobile-navbar-icon">
             <span></span>
@@ -14,30 +15,30 @@ const Header = () => {
           </div>
         </div>
         <div className="logo-wrapper">
-          <a href="/hexo-theme-even/." className="logo">Shawn</a>
+          <Link to="/" className="logo">Shawn</Link>
         </div>
 
         <nav className="site-navbar">          
             <ul id="menu" className="menu">             
                 <li className="menu-item">
-                  <a className="menu-item-link" href="/hexo-theme-even/">
+                  <Link className="menu-item-link" to="/">
                       Blog
-                  </a>
+                  </Link>
                 </li>              
                 <li className="menu-item">
-                  <a className="menu-item-link" href="/hexo-theme-even/archives/">
+                  <Link className="menu-item-link" to="/archives/">
                       Archives
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu-item">
-                  <a className="menu-item-link" href="/hexo-theme-even/archives/">
+                  <Link className="menu-item-link" to="/tags">
                       Tags
-                  </a>
+                  </Link>
                 </li>
                 <li className="menu-item">
-                  <a className="menu-item-link" href="/hexo-theme-even/archives/">
+                  <Link className="menu-item-link" to="/about">
                       About
-                  </a>
+                  </Link>
                 </li>
             </ul>
         </nav>

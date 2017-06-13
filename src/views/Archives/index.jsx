@@ -1,5 +1,5 @@
 import React      from 'react';
-import Content    from '../components/Content/index.jsx';
+import Content    from '../../components/Content/index.jsx';
 
 class Archives extends React.Component {
   constructor(...props) {
@@ -8,7 +8,7 @@ class Archives extends React.Component {
   render() {
     return (
       <Content>
-        
+        dbasjkdhasjkldhjkl
       </Content>
     );
   }

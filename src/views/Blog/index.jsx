@@ -15,15 +15,13 @@ class Blog extends React.Component {
 
     render() {
         return (
-            <Layout>
-                <Content>
-                    <div>
-                        this is content
-                        <PostItem />
-                    </div>
-                    <Pagination />
-                </Content>
-            </Layout>  
+            <Content>
+                <div>
+                    this is content
+                    <PostItem />
+                </div>
+                <Pagination />
+            </Content>
         );
     }
 }

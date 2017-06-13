@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+	Switch,
 	Route,
 	BrowserRouter as Router
 } from 'react-router-dom';
@@ -11,7 +12,7 @@ import Blog from '../views/Blog/index.jsx';
 const router = (
 	<Router>
 			<App>
-				<Route exact path="/" component={ Blog } />
+					<Route path="/" component={ Blog } />
 			</App>
 	</Router>
 );

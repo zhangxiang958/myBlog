@@ -16,10 +16,9 @@ class Blog extends React.Component {
     render() {
         return (
             <Content>
-                <div>
-                    this is content
+                <section id="posts" className="posts">
                     <PostItem />
-                </div>
+                </section>
                 <Pagination />
             </Content>
         );

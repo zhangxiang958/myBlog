@@ -41,7 +41,7 @@ module.exports = {
       loader: 'style-loader!css-loader?modules&localIdentName=[name]---[local]---[hash:base64:5]'
     },{
       test: /\.scss$/,
-      loader: 'style-loader!css-loader!sass-loader'
+      loader: 'style-loader!css-loader!sass-loader?outputStyle=compressed'
     },{
       // 专供iconfont方案使用的，后面会带一串时间戳，需要特别匹配到
       test: /\.(woff|woff2|svg|eot|ttf)\??.*$/,

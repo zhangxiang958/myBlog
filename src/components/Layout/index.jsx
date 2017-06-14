@@ -1,7 +1,7 @@
 import React    from 'react';
 import Header   from '../Header/index.jsx';
 import Footer   from '../Footer/index.jsx';
-import BackTop  from '../BackTop/index.jsx'
+import BackTop  from '../BackTop/index.jsx';
 
 let mainStyle = {
   margin: '0 auto',
@@ -13,9 +13,7 @@ const Layout = ({children}) => {
     <div className="main" style={ mainStyle }>
         <Header />
         <div className="content">
-          <section id="posts" className="posts">
-            {children}
-          </section>
+          {children}
         </div>
         <Footer />
         <BackTop />

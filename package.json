@@ -16,6 +16,7 @@
     "url": "https://github.com/zhangxiang958/myBlog/issues"
   },
   "homepage": "https://github.com/zhangxiang958/myBlog#readme",
+  "demo": "https://vinurs.me/categories/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",

@@ -1,6 +1,6 @@
 import React          from 'react';
 import Content        from '../../components/Content/index.jsx';
-import ArchivesOfYear from '../../components/ArchivesOfYear/index.jsx';
+import ArchivesTitle  from '../../components/ArchivesTitle/index.jsx';
 import PostDesc       from '../../components/PostDesc/index.jsx';
 
 class Archives extends React.Component {
@@ -17,8 +17,8 @@ class Archives extends React.Component {
                 <span> 2 </span>
                  Posts In Total
               </span>
-              <ArchivesOfYear />
-              <PostDesc />
+              <ArchivesTitle title="2017"/>
+              <PostDesc time="2017.06.09" postTitle="hello world"/>
             </div>
         </section>
       </Content>

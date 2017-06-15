@@ -1,5 +1,5 @@
-import React from 'react';
-import PostTag from '../../components/PostTag/index.jsx';
+import React    from 'react';
+import PostTag  from '../../components/PostTag/index.jsx';
 
 class Categories extends React.Component {
   constructor() {
@@ -17,7 +17,7 @@ class Categories extends React.Component {
           个分类
         </div>
         <div className="categories-tags">
-          <PostTag />
+          <PostTag url={this.props.match.url} tagName="fuck" postAmount="1300" />
         </div>
       </div>
     );

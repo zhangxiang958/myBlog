@@ -9,7 +9,9 @@ import {
 import App 				from '../views/App.jsx';
 import Blog 			from '../views/Blog/index.jsx';
 import Archives 	from '../views/Archives/index.jsx';
-import Categories from '../views/Categories/index.jsx';
+
+//son router 
+import CategoriesRouter from './CategoriesRouter.jsx';
 
 const router = (
 	<Router>
@@ -17,9 +19,7 @@ const router = (
 					<Switch>
 						<Route exact path="/" component={ Blog } />
 						<Route path="/archives" component={ Archives } />
-						<Route path="/categories" component={ Categories } >
-							<Route path="/:tag" component={ Blog } />
-						</Route>						
+						<Route path="/categories" component={ CategoriesRouter } />
 					</Switch>
 			</App>
 	</Router>

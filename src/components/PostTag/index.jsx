@@ -1,11 +1,13 @@
 import React    from 'react';
 import { Link } from 'react-router-dom';
 
-const Tags = () => {
+const Tags = ({ url, tagName, postAmount }) => {
   return (
-    <Link className="category-link" to="/categories/哲学/">
-      哲学
-      <span className="category-count">1</span>
+    <Link className="category-link" to={`${url}/${tagName}`}>
+        { tagName }
+      <span className="category-count">
+        { postAmount }
+      </span>
     </Link>
   );
 }

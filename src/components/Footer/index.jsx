@@ -25,7 +25,7 @@ const Footer = () => {
           <span className="heart">
             <i className="iconfont icon-heart"></i>
           </span>
-          <span className="author">Ahonn</span>
+          <span className="author">Shawn</span>
         </span>
       </div>
     </footer>

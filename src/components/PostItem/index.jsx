@@ -1,8 +1,5 @@
 import React    from 'react';
 import { Link } from 'react-router-dom';
-// import githubMarkdown from '../../static/css/github-markdown.css';
-// import prism from '../../static/css/prism.css';
-// import style from '../../static/css/style.css';
 
 const PostItem = ({ url, postName, postID }) => {
   return (

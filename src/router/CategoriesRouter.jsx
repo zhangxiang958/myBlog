@@ -1,8 +1,7 @@
-import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import Categories from '../views/Categories/index.jsx';
-import PostTag from '../components/PostTag/index.jsx';
-import PostOfTag from '../views/Archives/PostOfTag/index.jsx'
+import React            from 'react';
+import { Route, Link }  from 'react-router-dom';
+import Categories       from '../views/Categories/index.jsx';
+import PostOfTag        from '../views/Archives/PostOfTag/index.jsx';
 
 
 const CategoriesRouter = ({ match }) => (
